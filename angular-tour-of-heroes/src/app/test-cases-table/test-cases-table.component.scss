@@ -1,0 +1,52 @@
+.table{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.table>thead:first-child>tr:first-child>th{
+    vertical-align: initial;
+}
+.test-cases-display:hover {
+    color: rgb(59, 188, 230);
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(255, 150, 0);
+  border-radius: 50%;
+  display: inline-block;
+}
+.case-link{
+padding: 10px;
+}
+.arrow {
+  border: solid rgb(189, 189, 189);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  margin-bottom: -7px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-left: 30px;
+}
+.circle {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-table;
+}
+.table > thead > tr > th {
+padding: 25px 15px;
+}
+.table > tbody > tr > td{
+padding: 30px 15px;
+}
